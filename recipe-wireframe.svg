@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="740" viewBox="0 0 1260 740" role="img" aria-labelledby="title desc">
+<title id="title">Three-page soup website wireframe</title><desc id="desc">Home, Recipe, and About layouts and intended palette and fonts.</desc>
+<rect width="1260" height="740" fill="#f8f3e7"/>
+<text x="45" y="53" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#24372c">My Special Soup — site wireframe</text>
+<text x="45" y="84" font-family="Arial,sans-serif" font-size="15" fill="#536556">Three linked responsive pages · mobile sections stack vertically</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#24372c" stroke="#b6c1af" stroke-width="2">
+ <rect x="45" y="120" width="355" height="485" rx="12" fill="#fffaf0"/>
+ <rect x="452" y="120" width="355" height="485" rx="12" fill="#fffaf0"/>
+ <rect x="859" y="120" width="355" height="485" rx="12" fill="#fffaf0"/>
+ <rect x="60" y="133" width="325" height="46" rx="5" fill="#e9eddf"/><text x="74" y="161" stroke="none">LOGO      Home | Recipe | About</text>
+ <rect x="467" y="133" width="325" height="46" rx="5" fill="#e9eddf"/><text x="481" y="161" stroke="none">LOGO      Home | Recipe | About</text>
+ <rect x="874" y="133" width="325" height="46" rx="5" fill="#e9eddf"/><text x="888" y="161" stroke="none">LOGO      Home | Recipe | About</text>
+ <rect x="60" y="193" width="190" height="167" rx="4" fill="#f8e3c7"/><text x="75" y="220" stroke="none" font-weight="700">Hero heading</text><text x="75" y="245" stroke="none">Intro / CTA</text><rect x="75" y="293" width="96" height="34" rx="4" fill="#24372c"/><text x="84" y="315" stroke="none" font-size="13" fill="#fff">View recipe</text>
+ <rect x="261" y="193" width="124" height="167" rx="4" fill="#f1d0a8"/><text x="278" y="275" stroke="none">Soup art</text>
+ <text x="75" y="397" stroke="none" font-weight="700">3 process cards</text>
+ <rect x="60" y="411" width="99" height="74" rx="4" fill="#e9eddf"/><rect x="173" y="411" width="99" height="74" rx="4" fill="#e9eddf"/><rect x="286" y="411" width="99" height="74" rx="4" fill="#e9eddf"/>
+ <rect x="60" y="502" width="325" height="59" rx="4" fill="#f8e3c7"/><text x="78" y="538" stroke="none">Ingredient snapshot / CTA</text>
+ <rect x="467" y="195" width="325" height="84" rx="4" fill="#f8e3c7"/><text x="489" y="230" stroke="none" font-weight="700">Recipe title + intro</text>
+ <rect x="467" y="295" width="157" height="114" rx="4" fill="#e9eddf"/><rect x="635" y="295" width="157" height="114" rx="4" fill="#e9eddf"/><text x="482" y="327" stroke="none">Stock ingredients</text><text x="649" y="327" stroke="none">Soup ingredients</text>
+ <rect x="467" y="425" width="325" height="136" rx="4" fill="#f8e3c7"/><text x="487" y="457" stroke="none" font-weight="700">Numbered method</text><text x="487" y="482" stroke="none">1. Make stock → strain</text><text x="487" y="505" stroke="none">2. Add soup ingredients</text><text x="487" y="528" stroke="none">Food safety note below</text>
+ <rect x="874" y="195" width="325" height="84" rx="4" fill="#f8e3c7"/><text x="893" y="230" stroke="none" font-weight="700">About heading + intro</text>
+ <rect x="874" y="295" width="190" height="188" rx="4" fill="#e9eddf"/><rect x="1075" y="295" width="124" height="188" rx="4" fill="#f1d0a8"/><text x="889" y="330" stroke="none">Why homemade</text><text x="889" y="354" stroke="none">stock matters</text><text x="1089" y="335" stroke="none">Pull quote</text>
+ <rect x="874" y="500" width="325" height="61" rx="4" fill="#e9eddf"/><text x="893" y="533" stroke="none">GitHub source / contact area</text>
+ <g fill="#24372c"><rect x="60" y="575" width="325" height="18" rx="2"/><rect x="467" y="575" width="325" height="18" rx="2"/><rect x="874" y="575" width="325" height="18" rx="2"/></g>
+</g>
+<text x="45" y="645" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#24372c">Color palette</text>
+<rect x="45" y="657" width="57" height="33" rx="3" fill="#24372c"/><rect x="113" y="657" width="57" height="33" rx="3" fill="#fffaf0" stroke="#adb6a4"/><rect x="181" y="657" width="57" height="33" rx="3" fill="#a84228"/><rect x="249" y="657" width="57" height="33" rx="3" fill="#edf1e5" stroke="#adb6a4"/>
+<text x="325" y="677" font-family="Arial,sans-serif" font-size="15" fill="#24372c">Forest · Cream · Tomato · Sage</text>
+<text x="720" y="645" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#24372c">Fonts</text>
+<text x="720" y="675" font-family="Arial,sans-serif" font-size="16" fill="#24372c">Fraunces (headings) + DM Sans (body)</text>
+</svg>
