@@ -43,4 +43,4 @@ Use WAVE on each published page after GitHub Pages updates:
 - [Recipe page WAVE check](https://wave.webaim.org/report?url=https%3A%2F%2Fthechristianboss.github.io%2Fcampus%2Frecipe.html)
 - [About page WAVE check](https://wave.webaim.org/report?url=https%3A%2F%2Fthechristianboss.github.io%2Fcampus%2Fabout.html)
 
-**Testing note:** The earlier class WAVE scan reported zero errors and redundant-link alerts. The redundant site-title link has now been removed; a new WAVE run on each deployed page is still needed to confirm the current error and contrast counts. The contact form is a client-side practice example and does not send messages.
+**Latest supplied WAVE results (page with the contact form):** 0 errors, 0 contrast errors, 0 alerts, and AIM score 10/10. WAVE identified five form labels and one fieldset. These results only document the page scanned; the Home and Recipe pages still need separate checks. Manual keyboard testing is also necessary. The contact form is a practice example and does not send messages.
