@@ -84,7 +84,7 @@ if (contactForm) {
       return;
     }
 
-    success.textContent = "Your entries look good. This is a practice form, so no message was sent.";
+    success.textContent = "imagine doing your job";
     success.hidden = false;
     success.focus();
   });
