@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="contact.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
   <div class="container header-row">
-    <a class="site-name" href="index.html">My Special Soup</a>
+    <span class="site-name">My Special Soup</span>
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="recipe.html">Recipe</a>
@@ -37,6 +38,42 @@
     <h2>About this website</h2>
     <p>I made this website to share the recipe and practice building pages with HTML and CSS.</p>
   
+  </section>
+
+  <section class="contact-section" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <p>Have a recipe question or website suggestion? Fill out this practice form. It checks your answers but does not send a message.</p>
+    <form id="contact-form" novalidate>
+      <div id="form-feedback" class="form-feedback" role="alert" hidden></div>
+
+      <div class="form-field">
+        <label for="contact-name">Name (required)</label>
+        <input id="contact-name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+        <p id="name-error" class="field-error" hidden></p>
+      </div>
+
+      <div class="form-field">
+        <label for="contact-email">Email address (required)</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+        <p id="email-error" class="field-error" hidden></p>
+      </div>
+
+      <fieldset class="form-fieldset" aria-describedby="topic-error">
+        <legend>What is your message about? (required)</legend>
+        <label class="radio-option" for="topic-recipe"><input id="topic-recipe" type="radio" name="topic" value="recipe" required> Recipe question</label>
+        <label class="radio-option" for="topic-website"><input id="topic-website" type="radio" name="topic" value="website"> Website feedback</label>
+        <p id="topic-error" class="field-error" hidden></p>
+      </fieldset>
+
+      <div class="form-field">
+        <label for="contact-message">Message (required)</label>
+        <textarea id="contact-message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+        <p id="message-error" class="field-error" hidden></p>
+      </div>
+
+      <button class="button" type="submit">Check my message</button>
+      <p id="form-success" class="form-success" role="status" tabindex="-1" hidden></p>
+    </form>
   </section>
 </main>
 <footer>
